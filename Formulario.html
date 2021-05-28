@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+   <style>
+        body{
+            background-color: slategray;
+        }
+    </style>
+    
+<body>
+    <img src="OIP.jpg" alt="Proa" title="Instituto Proa" width="200">
+    <hr>
+    <h3>Seja bem-vindo(a) ao grupo 17!</h3>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nome">Nome</label>
+                            <input type="text" name= "nome" id= "nome" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="idade">Idade</label>
+                            <input type="number" name="idade" id="idade">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="formacao">Formação Acadêmica</label>
+                            <select name="escolaridade" id="escolaridade">
+                                <option value="ee"> Ensino Médio</option>
+                                <option value="nt"> Nível Técnico</option>
+                                <option value="es"> Ensino Superior</option>
+                                <option value="pg"> Pós Graduação</option>
+                                <option value="ms"> Mestrado</option>
+                                <option value="do"> Doutorado</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hobb">Hobby</label>
+                            <select multiple name="hobby" id="hobby">
+                            <option>Música</option>
+                            <option>Esportes</option>
+                            <option>Teatro</option>
+                            <option>Culinária</option>
+                            <option>Literatura</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>    
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Redes Sociais</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="whatsaap">WhatsApp</label>
+                            <input type="text" name="whatsaap" id="whatsaap">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label for="github">Github</label>
+                           <input type="text" name="github" id="github">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="linkedin">Linkedin</label>
+                            <input type="text" name="linkedin" id="linkedin">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="twitter">Twitter</label>
+                            <input type="text" name="twitter" id="twitter">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="instagram">Instagram</label>
+                            <input type="text" name="instagram" id="instagram">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="facebook">Facebook</label>
+                            <input type="text" name="facebook" id="facebook">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Confirmação de dados</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                           <label for="email">E-mail</label>
+                           <input type="text" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="confirme">Confirme a Senha</label>
+                            <input type="password" name="confirme">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" value="Limpar">
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>  
+</body>
+</html>
